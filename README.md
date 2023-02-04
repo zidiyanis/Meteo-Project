@@ -68,9 +68,18 @@ Use -p 3 to get pressure measurements for each station, date and time.
 
 •	makefile : Our makefile. It serves to compile all the C files and clean temporary files afterwards.
 
-•	script.sh : The main shell file that executes our project entirely.
+•	script_meteo.sh : The main shell file that executes our project entirely.
 
-• main.c : Our main C porgram
+• main.c : Our main C porgram.
+
+• Help : our help file.
+
+• Planing.pdf : Our descripyion of how our project was made .
+
+• inculde : contains our main.h .
+
+•exmaple_of_shart.png / example_of_compilation.png :screenshot of the result .
+
 
 
 
@@ -84,4 +93,4 @@ Use -p 3 to get pressure measurements for each station, date and time.
 
 
 
-ZIDI Yanis,WOHL Nathan\ PréIng2 G4-MI \ CY TECH
+ZIDI Yanis, WOHL Nathan\ PréIng2 G4-MI \ CY TECH
