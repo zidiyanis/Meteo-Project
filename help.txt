@@ -1,0 +1,71 @@
+
+In order to compile this project you have to enter the 
+command "make" on the terminal and the executable is 
+ready to use.
+
+# ------ How to use the application ------ #
+
+In order to know how you can use this application you can
+type the command ./filter.sh --help
+Here two exemples : 
+
+./script_meteo.sh -p2 -w -A -f meteo_filtered_data_v1.csv
+./script_meteo.sh -A -f meteo_filtered_data_v1.csv -p2 --avl -w 
+
+Theses two commands make the same result, a graph with 
+pression informations and another graph with wind 
+informations in the Antilles
+
+# ------ Differents types of graphs -------- #
+
+To make the programm works you will need to specify somme arguments
+You do not need to write them in a very specific order they just need to 
+be put in the command after the ./skript.sh
+Here is a list of the argument
+
+  Geographic restriction :
+    -F : for metropolitain France
+    -G : for Guyane
+    -S : for Saint-Pierre et Miquelon
+    -A : for Antilles
+    -O : for Indian Ocean
+    -Q : for Antarctique
+  If you have data coming from another country it should work
+  unless the station IDE are not in the 71000 format.
+  If you want all of your data or if you have data from another country, don't specify
+  this argument
+  Note that you can't many Geographic at once 
+  (for example you can't ask for data in Antarctique and in Guyane simultaneously)
+  
+  Time restriction :
+    -d <YYYY-DD-MM> <YYYY-DD-MM>
+   Note that there is actually no "<>"
+   The data will be restricted to only data between thoose two dates
+   It will send an error if The first one is greater than the second one
+   
+   Sort mode :
+    --avl : to sort in an avl
+    --abr : to sort in an abr
+    --tab : to sort in a tab
+   This refere to the sort in the C programm
+   
+   Your data
+    -f <fileName.csv> : to specify the data you want to use
+   Note that it can be a .txt or basically everything you want
+   Just make sure that you have the rights on tis file, because if not it may send an error
+   The file in entry has to be in the same directory as the skript.sh
+   
+   Help 
+     --help : to display the help message wich is basically a section of this makefile
+   
+   Type of data :
+    -t : for temperatures
+    -p : for pression
+    -w : for wind
+    -m : for moisture
+    -h : for heigt
+   For temperature and pression you will need to specify the mode, modes are :
+    1 : min max and average per station
+    2 : average per day
+    3 : average per day per station
+   So for example if you want the temperature in mode one, enter the argument -t1
