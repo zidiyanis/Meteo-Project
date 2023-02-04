@@ -4,6 +4,7 @@
 
 
 
+
 **HOW TO USE**
 
 
@@ -12,6 +13,7 @@
      3.	Use the command "bash script.sh" with the options of your choice to start creating graphics !  Warning : some options must be used. If you have any question about how to use Meteo-Project, use the following command : "bash script.sh --help"
      4.	If you have chosen multiple options, you will be able to see the graphs one at a time. To go on to the next one, simply close the current gnuplot window.
      5.	Type "make clean" in your terminal to delete all our executables / object files if you don't want them.
+
 
 
 
@@ -63,6 +65,7 @@ Use -p 3 to get pressure measurements for each station, date and time.
 -O : the data used will only be from stations located in the Indian Ocean.
 
 
+
 **LIST OF FILES**
 
 
@@ -83,8 +86,10 @@ Use -p 3 to get pressure measurements for each station, date and time.
 
 
 
+
 **LIBRARIES USED** 
 
+  
   • stdio.h 
   
   • stdlib.h 
