@@ -1,6 +1,6 @@
 **DESCRIPTION**
 
-CY-METEO is a software created for generating graphics based on meteorological data such as temperature, pressure, wind, height, and moisture from different regions in France. The program is developed using C and shell script programming languages and utilizes GNUPLOT for graph creation. The user can initiate the program by giving a command to start processing meteorological data from a file. The software uses C functions to sort and arrange the data in specific ways, allowing for production of different graphs. The data can be filtered by time and region and the sorting order can be changed. The program offers three sorting modes for customization.
+ Meteo-Project is a software created for generating graphics based on meteorological data such as temperature, pressure, wind, height, and moisture from different regions in France. The program is developed using C and shell script programming languages and utilizes GNUPLOT for graph creation. The user can initiate the program by giving a command to start processing meteorological data from a file. The software uses C functions to sort and arrange the data in specific ways, allowing for production of different graphs. The data can be filtered by time and region and the sorting order can be changed. The program offers three sorting modes for customization.
 
 
 
