@@ -17,17 +17,17 @@
 
 **LIST OF OPTIONS**
 
-  -f : serves to specify the path to the meteorological data file. Not using it will cause an error.
+  -f : serves to specify the path to the meteorological data file.
 
- --avl : data is sorted by using AVL trees. If no sorting mode is specified, this is the default mode.
-
+ --avl : data is sorted by using AVL trees. 
+ 
  --abr : data is sorted by using ABR.
 
  --tab : data is sorted by using lists.
 
 --help : puts a help message on the terminal.
 
- -r : the sorts will be reversed (ascending becomes descending and descending becomes ascending).
+ -r : the sorts will be reversed .
 
 -t : the program will produce graphics on temperature in French regions.
 You need to specify a mode as an argument.
@@ -42,13 +42,13 @@ Use -p 1 to get average, minimum and maximum pressure for each station.
 Use -p 2 to get worldly average pressure measurements for each date and time.
 Use -p 3 to get pressure measurements for each station, date and time.
 
--w : the program will produce graphics on wind in French regions. The output will be a vector map representing average wind measurements in each region of the world.
+ -w : the program will produce graphics on wind in French regions. 
 
- -h : the program will produce graphics on the height of meteorological stations in French regions. The output will be a map with colors representing heights in each region.
+ -h : the program will produce graphics on the height of meteorological stations in French regions. 
 
--m : the program will produce graphics on moisture levels in French regions. The output will be a map with colors representing moisture levels in each region.
+-m : the program will produce graphics on moisture levels in French regions. 
 
--d : allows to specify a time interval from which the data used will come.  The format of the time interval is "YYYY-MM-DDYYYY-MM-DD".
+-d : allows to specify a time interval from which the data used will come.  
 
 -F : the data used will only be from the stations located in metropolitan France and Corsa.
 
