@@ -70,63 +70,17 @@ Use -p 3 to get pressure measurements for each station, date and time.
 
 •	script.sh : The main shell file that executes our project entirely.
 
-•	C directory :
-
-    o	main.c : Our main C program. It calls the different sorting modes depending on activated options.
-
-    o	shared.h : C header for the shared.c file.
-
-    o	shared.c : C file containing functions that are used in every sorting mode.
-
-    o	tab.h : C header for the tab.c file.
-
-    o	tab.c : C file containing all the functions that are necessary for sorting files using lists.
-
-    o	avl.h : C header for the avl.c file.
-
-    o	avl.c : C file containing all the functions that are necessary for sorting files using AVL trees.
-
-    o	abr.h : C header for the abr.c file.
-
-    o	abr.c : C file containing all the functions that are necessary for sorting files using ABR trees.
-
-    o	C/data directory :
-                 -[Temporary files]
-                 -[Meteorological data file]
+• main.c : Our main C porgram
 
 
-•	Gnuplot directory : 
 
-    o	gnuT1.sh : shell file used to make the graph of the option "temperature mode 1".
+**Libraries used** 
 
-    o	gnuT2.sh : shell file used to make the graph of the option "temperature mode 2".
-
-    o	gnuT3.sh : shell file used to make the graph of the option "temperature mode 3".
-
-    o	gnuP1.sh : shell file used to make the graph of the option "pressure mode 1".
-
-    o	gnuP2.sh : shell file used to make the graph of the option "pressure mode 2".
-
-    o	gnuP3.sh : shell file used to make the graph of the option "pressure mode 3".
-
-    o	gnuW.sh : shell file used to make the graph of the option "wind".
-
-    o	gnuH.sh : shell file used to make the graph of the option "height".
-
-    o	gnuM.sh : shell file used to make the graph of the option "moisture".
-
-    o	Gnuplot/data directory :
-               -[Temporary files]
-
-•	Informations directory :
-
-     o	Specifications (PDF)
-     o	General informations (PDF)
-
-
-Libraries used : stdio.h ; stdlib.h ; string.h
-
-
+  • stdio.h 
+  
+  • stdlib.h 
+  
+  • string.h
 
 
 
