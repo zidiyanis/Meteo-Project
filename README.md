@@ -72,7 +72,7 @@ Use -p 3 to get pressure measurements for each station, date and time.
 
 • main.c : Our main C porgram.
 
-• Help : our help file.
+• help.tkt : our help file.
 
 • Planing.pdf : Our descripyion of how our project was made .
 
